@@ -98,7 +98,7 @@ def hemisphere_images(browser):
     url = 'https://marshemispheres.com/'
     browser.visit(url)
     html = browser.html
-    soup = soup(html,'html.parser')
+    hemi_soup = soup(html,'html.parser')
     # # 2. Create a list to hold the images and titles.
         #hemisphere_image_urls = [{"img_url":img_url,"title":title}]
     try:
